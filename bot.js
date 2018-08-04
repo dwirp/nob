@@ -14,4 +14,4 @@ client.on('message', message => {
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 client.user.setActivity('YouTube');
-bot.user.setGame("Type !help");
+bot.user.setGame('GAME HERE');
