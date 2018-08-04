@@ -13,6 +13,3 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-client.on('ready', () => {
-  client.user.setActivity('YouTube', { type: 'WATCHING' });
-});
