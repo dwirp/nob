@@ -14,6 +14,4 @@ client.on('message', message => {
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
-client.user.setPresence({ activity: { name: 'with discord.js' }, status: 'idle' })
-  .then(console.log)
-  .catch(console.error);
+client.user.setPresence({ activity: { name: 'with discord.js' }, status: 'idle' });
