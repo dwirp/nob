@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '@everyone mabar' || '@everyone' || 'mabar') {
+    if (message.content === '@everyone mabar' || '@everyone' || 'Mabar') {
     	message.reply('kuyy');
   	}
 });
